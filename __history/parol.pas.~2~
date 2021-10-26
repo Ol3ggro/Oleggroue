@@ -12,8 +12,6 @@ type
     Edit2: TEdit;
     Button1: TButton;
     Button2: TButton;
-    Label1: TLabel;
-    Label2: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
   private
@@ -33,11 +31,10 @@ uses UnitMain;
 
 procedure TFormParol.Button1Click(Sender: TObject);
 begin
-if ((Edit1.Text = 'Kravcov') and (Edit2.Text = 'password')) then begin
 
           Form2.Enabled:=True;
           FormParol.Close;
-                                                                   end;
+
 end;
 
 procedure TFormParol.Button2Click(Sender: TObject);
