@@ -1,0 +1,320 @@
+object FormUslug: TFormUslug
+  Left = 0
+  Top = 0
+  Caption = #1057#1087#1088#1072#1074#1086#1095#1085#1080#1082' '#1091#1089#1083#1091#1075
+  ClientHeight = 209
+  ClientWidth = 443
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Visible = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBGrid1: TDBGrid
+    Left = 10
+    Top = 0
+    Width = 425
+    Height = 120
+    DataSource = DataBD.DataUslugi
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'kod_usl'
+        Width = 60
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'name_usl'
+        Width = 240
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'kod_vusl'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'price_usl'
+        Visible = True
+      end>
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 8
+    Top = 126
+    Width = 168
+    Height = 25
+    DataSource = DataBD.DataUslugi
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast]
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 364
+    Top = 176
+    Width = 75
+    Height = 25
+    Caption = #1047#1072#1082#1088#1099#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 182
+    Top = 126
+    Width = 75
+    Height = 25
+    Caption = #1044#1086#1073#1072#1074#1080#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 263
+    Top = 126
+    Width = 75
+    Height = 25
+    Caption = #1059#1076#1072#1083#1080#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 344
+    Top = 126
+    Width = 75
+    Height = 25
+    Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 283
+    Top = 176
+    Width = 75
+    Height = 25
+    Caption = #1054#1090#1095#1105#1090
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 6
+    OnClick = Button5Click
+  end
+  object frxDBUslug: TfrxDBDataset
+    UserName = 'frxDBUslug'
+    CloseDataSource = False
+    DataSet = DataBD.ADOUslugi
+    Left = 384
+    Top = 232
+  end
+  object frxReportUslug: TfrxReport
+    Version = '4.2.45'
+    DotMatrixReport = False
+    IniFile = '\Software\Fast Reports'
+    PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
+    PreviewOptions.Zoom = 1.000000000000000000
+    PrintOptions.Printer = 'Default'
+    PrintOptions.PrintOnSheet = 0
+    ReportOptions.CreateDate = 44307.457942662000000000
+    ReportOptions.LastChange = 44307.457942662000000000
+    ScriptLanguage = 'PascalScript'
+    ScriptText.Strings = (
+      'begin'
+      ''
+      'end.')
+    Left = 416
+    Top = 232
+    Datasets = <
+      item
+        DataSet = frxDBUslug
+        DataSetName = 'frxDBUslug'
+      end>
+    Variables = <>
+    Style = <>
+    object Data: TfrxDataPage
+      Height = 1000.000000000000000000
+      Width = 1000.000000000000000000
+    end
+    object Page1: TfrxReportPage
+      PaperWidth = 210.000000000000000000
+      PaperHeight = 297.000000000000000000
+      PaperSize = 9
+      Color = 13296895
+      object ReportTitle1: TfrxReportTitle
+        Height = 90.708720000000000000
+        Top = 18.897650000000000000
+        Width = 793.701300000000000000
+        object Memo1: TfrxMemoView
+          Left = 249.448980000000000000
+          Top = 3.779530000000000000
+          Width = 287.244280000000000000
+          Height = 86.929190000000000000
+          DisplayFormat.DecimalSeparator = ','
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clTeal
+          Font.Height = -37
+          Font.Name = 'Arial'
+          Font.Style = [fsBold]
+          HAlign = haCenter
+          Memo.UTF8 = (
+            #1056#1115#1057#8218#1057#8225#1057#8216#1057#8218' '#1056#1111#1056#1109' '#1057#1107#1057#1027#1056#187#1057#1107#1056#1110#1056#176#1056#1112)
+          ParentFont = False
+        end
+      end
+      object MasterData1: TfrxMasterData
+        Height = 11.338590000000000000
+        Top = 170.078850000000000000
+        Width = 793.701300000000000000
+        RowCount = 0
+      end
+      object frxDBUslugname_usl: TfrxMemoView
+        Left = 98.267780000000000000
+        Top = 188.976500000000000000
+        Width = 211.653680000000000000
+        Height = 18.897650000000000000
+        Color = 4643583
+        DataField = 'name_usl'
+        DataSet = frxDBUslug
+        DataSetName = 'frxDBUslug'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clTeal
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Style = []
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8 = (
+          '[frxDBUslug."name_usl"]')
+        ParentFont = False
+      end
+      object frxDBUslugkod_vusl: TfrxMemoView
+        Left = 309.921460000000000000
+        Top = 188.976500000000000000
+        Width = 185.196970000000000000
+        Height = 18.897650000000000000
+        Color = 4643583
+        DataField = 'kod_vusl'
+        DataSet = frxDBUslug
+        DataSetName = 'frxDBUslug'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clTeal
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Style = []
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8 = (
+          '[frxDBUslug."kod_vusl"]')
+        ParentFont = False
+      end
+      object frxDBUslugprice_usl: TfrxMemoView
+        Left = 495.118430000000000000
+        Top = 188.976500000000000000
+        Width = 219.212740000000000000
+        Height = 18.897650000000000000
+        Color = 4643583
+        DataField = 'price_usl'
+        DataSet = frxDBUslug
+        DataSetName = 'frxDBUslug'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clTeal
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Style = []
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8 = (
+          '[frxDBUslug."price_usl"]')
+        ParentFont = False
+      end
+      object Memo2: TfrxMemoView
+        Left = 98.267780000000000000
+        Top = 124.724490000000000000
+        Width = 211.653680000000000000
+        Height = 26.456710000000000000
+        Color = 4643583
+        DisplayFormat.DecimalSeparator = ','
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clTeal
+        Font.Height = -15
+        Font.Name = 'Arial'
+        Font.Style = []
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8 = (
+          #1056#1116#1056#176#1056#1105#1056#1112#1056#181#1056#1029#1056#1109#1056#1030#1056#176#1056#1029#1056#1105#1056#181' '#1057#1107#1057#1027#1056#187#1057#1107#1056#1110#1056#1105)
+        ParentFont = False
+      end
+      object Memo3: TfrxMemoView
+        Left = 309.921460000000000000
+        Top = 124.724490000000000000
+        Width = 185.196970000000000000
+        Height = 26.456710000000000000
+        Color = 4643583
+        DisplayFormat.DecimalSeparator = ','
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clTeal
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Style = []
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8 = (
+          #1056#1113#1056#1109#1056#1169' '#1056#1030#1056#1105#1056#1169#1056#176' '#1057#1107#1057#1027#1056#187#1057#1107#1056#1110#1056#1105)
+        ParentFont = False
+      end
+      object Memo4: TfrxMemoView
+        Left = 495.118430000000000000
+        Top = 124.724490000000000000
+        Width = 219.212740000000000000
+        Height = 26.456710000000000000
+        Color = 4643583
+        DisplayFormat.DecimalSeparator = ','
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clTeal
+        Font.Height = -15
+        Font.Name = 'Arial'
+        Font.Style = []
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8 = (
+          #1056#166#1056#181#1056#1029#1056#176' '#1057#1107#1057#1027#1056#187#1057#1107#1056#1110#1056#1105)
+        ParentFont = False
+      end
+    end
+  end
+end

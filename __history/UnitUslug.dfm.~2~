@@ -1,0 +1,177 @@
+object FormUslug: TFormUslug
+  Left = 0
+  Top = 0
+  Caption = #1057#1087#1088#1072#1074#1086#1095#1085#1080#1082' '#1091#1089#1083#1091#1075
+  ClientHeight = 209
+  ClientWidth = 443
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Visible = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBGrid1: TDBGrid
+    Left = 8
+    Top = 0
+    Width = 425
+    Height = 120
+    DataSource = DataBD.DataUslugi
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'kod_usl'
+        Width = 60
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'name_usl'
+        Width = 240
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'kod_vusl'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'price_usl'
+        Visible = True
+      end>
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 8
+    Top = 126
+    Width = 168
+    Height = 25
+    DataSource = DataBD.DataUslugi
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast]
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 364
+    Top = 176
+    Width = 75
+    Height = 25
+    Caption = #1047#1072#1082#1088#1099#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object DBLookupComboBox1: TDBLookupComboBox
+    Left = 8
+    Top = 157
+    Width = 145
+    Height = 21
+    DataField = 'family'
+    DataSource = DataBD.DataKlient
+    KeyField = 'kod_vusl'
+    ListField = 'kod_usl'
+    ListSource = DataBD.DataUslugi
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 182
+    Top = 126
+    Width = 75
+    Height = 25
+    Caption = #1044#1086#1073#1072#1074#1080#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 263
+    Top = 126
+    Width = 75
+    Height = 25
+    Caption = #1059#1076#1072#1083#1080#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 344
+    Top = 126
+    Width = 75
+    Height = 25
+    Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 6
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 283
+    Top = 176
+    Width = 75
+    Height = 25
+    Caption = #1054#1090#1095#1105#1090
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    TabOrder = 7
+    OnClick = Button5Click
+  end
+  object frxDBUslug: TfrxDBDataset
+    UserName = 'frxDBUslug'
+    CloseDataSource = False
+    DataSet = DataBD.ADOUslugi
+    Left = 384
+    Top = 232
+  end
+  object frxReportUslug: TfrxReport
+    Version = '4.2.45'
+    DotMatrixReport = False
+    IniFile = '\Software\Fast Reports'
+    PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
+    PreviewOptions.Zoom = 1.000000000000000000
+    PrintOptions.Printer = 'Default'
+    PrintOptions.PrintOnSheet = 0
+    ReportOptions.CreateDate = 44307.457942662040000000
+    ReportOptions.LastChange = 44307.457942662040000000
+    ScriptLanguage = 'PascalScript'
+    ScriptText.Strings = (
+      'begin'
+      ''
+      'end.')
+    Left = 416
+    Top = 232
+    Datasets = <>
+    Variables = <>
+    Style = <>
+  end
+end

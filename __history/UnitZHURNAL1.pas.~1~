@@ -1,0 +1,24 @@
+unit UnitZHURNAL1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TFormZHURNAL1 = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormZHURNAL1: TFormZHURNAL1;
+
+implementation
+
+{$R *.dfm}
+
+end.

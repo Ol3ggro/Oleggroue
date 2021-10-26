@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021.04.19 12:37:50.750.pas,C:\Users\User220\Documents\Borland Studio Projects\Unit2.pas=C:\Users\User220\Desktop\производственная практика Кравцов\UnitMain.pas</Transaction>
+    <Transaction>2021.04.19 12:37:50.757.dfm,C:\Users\User220\Documents\Borland Studio Projects\Unit2.dfm=C:\Users\User220\Desktop\производственная практика Кравцов\UnitMain.dfm</Transaction>
+    <Transaction>2021.04.19 12:38:11.042.bdsproj,C:\Users\User220\Documents\Borland Studio Projects\Project1.bdsproj=C:\Users\User220\Desktop\производственная практика Кравцов\ProjectPROIZV.bdsproj</Transaction>
+    <Transaction>2021.04.19 12:44:09.321.pas,C:\Users\User220\Desktop\производственная практика Кравцов\Unit1.pas=C:\Users\User220\Desktop\производственная практика Кравцов\UnitBD.pas</Transaction>
+    <Transaction>2021.04.19 12:44:09.321.dfm,C:\Users\User220\Desktop\производственная практика Кравцов\Unit1.dfm=C:\Users\User220\Desktop\производственная практика Кравцов\UnitBD.dfm</Transaction>
+    <Transaction>2021.04.19 13:52:39.220.pas,C:\Users\User220\Desktop\производственная практика Кравцов\Unit1.pas=C:\Users\User220\Desktop\производственная практика Кравцов\UnitKlient.pas</Transaction>
+    <Transaction>2021.04.19 13:52:39.220.dfm,C:\Users\User220\Desktop\производственная практика Кравцов\Unit1.dfm=C:\Users\User220\Desktop\производственная практика Кравцов\UnitKlient.dfm</Transaction>
+    <Transaction>2021.04.20 11:35:35.651.pas,C:\Users\User220\Desktop\производственная практика Кравцов\Unit1.pas=C:\Users\User220\Desktop\производственная практика Кравцов\UnitKlient1.pas</Transaction>
+    <Transaction>2021.04.20 11:35:35.651.dfm,C:\Users\User220\Desktop\производственная практика Кравцов\Unit1.dfm=C:\Users\User220\Desktop\производственная практика Кравцов\UnitKlient1.dfm</Transaction>
+    <Transaction>2021.04.20 12:03:20.072.pas,C:\Users\User220\Desktop\производственная практика Кравцов\Unit1.pas=C:\Users\User220\Desktop\производственная практика Кравцов\UnitSotr.pas</Transaction>
+    <Transaction>2021.04.20 12:03:20.072.dfm,C:\Users\User220\Desktop\производственная практика Кравцов\Unit1.dfm=C:\Users\User220\Desktop\производственная практика Кравцов\UnitSotr.dfm</Transaction>
+    <Transaction>2021.04.21 09:50:10.892.pas,C:\Users\user220\Desktop\Производственная практика Кравцов\Unit1.pas=C:\Users\user220\Desktop\Производственная практика Кравцов\UnitSotr1.pas</Transaction>
+    <Transaction>2021.04.21 09:50:10.892.dfm,C:\Users\user220\Desktop\Производственная практика Кравцов\Unit1.dfm=C:\Users\user220\Desktop\Производственная практика Кравцов\UnitSotr1.dfm</Transaction>
+    <Transaction>2021.04.21 10:36:34.867.pas,C:\Users\user220\Desktop\Производственная практика Кравцов\Unit1.pas=C:\Users\user220\Desktop\Производственная практика Кравцов\UnitUslug.pas</Transaction>
+    <Transaction>2021.04.21 10:36:34.868.dfm,C:\Users\user220\Desktop\Производственная практика Кравцов\Unit1.dfm=C:\Users\user220\Desktop\Производственная практика Кравцов\UnitUslug.dfm</Transaction>
+    <Transaction>2021.04.21 11:01:38.910.pas,C:\Users\user220\Desktop\Производственная практика Кравцов\Unit1.pas=C:\Users\user220\Desktop\Производственная практика Кравцов\UnitUslug1.pas</Transaction>
+    <Transaction>2021.04.21 11:01:38.910.dfm,C:\Users\user220\Desktop\Производственная практика Кравцов\Unit1.dfm=C:\Users\user220\Desktop\Производственная практика Кравцов\UnitUslug1.dfm</Transaction>
+    <Transaction>2021.04.23 08:55:54.299.pas,C:\Users\user220\Desktop\Производственная практика Кравцов\Unit1.pas=C:\Users\user220\Desktop\Производственная практика Кравцов\UnitZHURNAL.pas</Transaction>
+    <Transaction>2021.04.23 08:55:54.299.dfm,C:\Users\user220\Desktop\Производственная практика Кравцов\Unit1.dfm=C:\Users\user220\Desktop\Производственная практика Кравцов\UnitZHURNAL.dfm</Transaction>
+    <Transaction>2021.04.23 09:38:37.367.pas,C:\Users\user220\Desktop\Производственная практика Кравцов\Unit1.pas=C:\Users\user220\Desktop\Производственная практика Кравцов\UnitZHURNAL1.pas</Transaction>
+    <Transaction>2021.04.23 09:38:37.367.dfm,C:\Users\user220\Desktop\Производственная практика Кравцов\Unit1.dfm=C:\Users\user220\Desktop\Производственная практика Кравцов\UnitZHURNAL1.dfm</Transaction>
+    <Transaction>2021.10.14 10:32:22.528.pas,C:\Users\user220\Desktop\PrKravtsov\Unit1.pas=C:\Users\user220\Desktop\PrKravtsov\UnitPALAT.pas</Transaction>
+    <Transaction>2021.10.14 10:32:22.528.dfm,C:\Users\user220\Desktop\PrKravtsov\Unit1.dfm=C:\Users\user220\Desktop\PrKravtsov\UnitPALAT.dfm</Transaction>
+    <Transaction>2021.10.26 18:48:34.550.pas,C:\Users\levak\Desktop\pp02Kravc-main\Unit1.pas=C:\Users\levak\Desktop\pp02Kravc-main\parol.pas</Transaction>
+    <Transaction>2021.10.26 18:48:34.550.dfm,C:\Users\levak\Desktop\pp02Kravc-main\Unit1.dfm=C:\Users\levak\Desktop\pp02Kravc-main\parol.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

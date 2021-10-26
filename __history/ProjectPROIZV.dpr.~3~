@@ -1,0 +1,19 @@
+program ProjectPROIZV;
+
+uses
+  Forms,
+  UnitMain in 'UnitMain.pas' {Form2},
+  UnitBD in 'UnitBD.pas' {DataBD: TDataModule},
+  UnitKlient in 'UnitKlient.pas' {FormKlient},
+  UnitKlient1 in 'UnitKlient1.pas' {FormKlient1},
+  UnitSotr in 'UnitSotr.pas' {FormSotr},
+  UnitSotr1 in 'UnitSotr1.pas' {FormSotr1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TDataBD, DataBD);
+  Application.CreateForm(TForm2, Form2);
+  Application.Run;
+end.

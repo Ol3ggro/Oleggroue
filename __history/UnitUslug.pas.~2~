@@ -1,0 +1,69 @@
+unit UnitUslug;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, DBCtrls, StdCtrls, ExtCtrls, Grids, DBGrids, frxClass, frxDBSet;
+
+type
+  TFormUslug = class(TForm)
+    DBGrid1: TDBGrid;
+    DBNavigator1: TDBNavigator;
+    Button1: TButton;
+    DBLookupComboBox1: TDBLookupComboBox;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
+    frxDBUslug: TfrxDBDataset;
+    frxReportUslug: TfrxReport;
+    procedure Button1Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormUslug: TFormUslug;
+
+implementation
+
+uses UnitBD;
+
+{$R *.dfm}
+
+procedure TFormUslug.Button1Click(Sender: TObject);
+begin
+close;
+end;
+
+procedure TFormUslug.Button2Click(Sender: TObject);
+begin
+DataBD.ADOUslugi.Append;
+Application.CreateForm(TFormUslug1, FormUslug1);
+end;
+
+procedure TFormUslug.Button3Click(Sender: TObject);
+begin
+if DataBD.ADOUslugi.Eof Then Abort;
+  If messagebox(0,'Вы действительно хотите удалить запись?','Запрос',33)=1
+    then  DataBD.ADOUslugi.delete;
+end;
+
+procedure TFormUslug.Button4Click(Sender: TObject);
+begin
+DataBD.ADOUslugi.Post;
+end;
+
+procedure TFormUslug.Button5Click(Sender: TObject);
+begin
+frxReportUslug.showreport;
+end;
+
+end.

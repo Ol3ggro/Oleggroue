@@ -1,0 +1,26 @@
+unit UnitUslug1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TFormUslug1 = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormUslug1: TFormUslug1;
+
+implementation
+
+uses UnitUslug;
+
+{$R *.dfm}
+
+end.

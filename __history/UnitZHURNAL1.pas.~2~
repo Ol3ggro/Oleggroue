@@ -1,0 +1,34 @@
+unit UnitZHURNAL1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Mask, DBCtrls;
+
+type
+  TFormZHURNAL1 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    DBEdit1: TDBEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormZHURNAL1: TFormZHURNAL1;
+
+implementation
+
+{$R *.dfm}
+
+end.
