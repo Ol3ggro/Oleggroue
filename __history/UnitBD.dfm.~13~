@@ -326,7 +326,6 @@ object DataBD: TDataBD
     Top = 192
   end
   object ADOParol: TADOTable
-    Active = True
     Connection = ADOBOLNICA
     CursorType = ctStatic
     TableName = 'parol'

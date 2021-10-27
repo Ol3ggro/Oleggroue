@@ -71,7 +71,6 @@ object FormParol: TFormParol
     DataField = 'login'
     DataSource = DataBD.DataParol
     TabOrder = 4
-    Visible = False
   end
   object DBEdit2: TDBEdit
     Left = 328
@@ -81,6 +80,5 @@ object FormParol: TFormParol
     DataField = 'password'
     DataSource = DataBD.DataParol
     TabOrder = 5
-    Visible = False
   end
 end

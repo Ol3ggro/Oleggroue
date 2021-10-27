@@ -320,17 +320,4 @@ object DataBD: TDataBD
     Left = 616
     Top = 120
   end
-  object DataParol: TDataSource
-    DataSet = ADOParol
-    Left = 544
-    Top = 192
-  end
-  object ADOParol: TADOTable
-    Active = True
-    Connection = ADOBOLNICA
-    CursorType = ctStatic
-    TableName = 'parol'
-    Left = 416
-    Top = 192
-  end
 end

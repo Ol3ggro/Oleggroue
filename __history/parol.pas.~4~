@@ -35,12 +35,7 @@ uses UnitMain, UnitBD;
 
 procedure TFormParol.Button1Click(Sender: TObject);
 begin
-if length(edit1.Text)>0 then
-dataBD.ADOParol.Filtered:=true
-else
- dataBD.ADOParol.Filtered:=false; dataBD.ADOPArol.Filter:='login='''+edit1.Text+'''';
-
-if ((Edit1.Text = DBEdit1.Text) and (Edit2.Text = DBEdit2.Text)) then begin
+if ((Edit1.Text = DBEdit1.Field) and (Edit2.Text = DBEdit2.Field)) then begin
 
           Form2.Enabled:=True;
           FormParol.Close;

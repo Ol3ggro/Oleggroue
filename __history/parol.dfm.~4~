@@ -2,8 +2,8 @@ object FormParol: TFormParol
   Left = 0
   Top = 0
   Caption = #1041#1077#1079#1086#1087#1072#1089#1085#1086#1089#1090#1100
-  ClientHeight = 216
-  ClientWidth = 455
+  ClientHeight = 201
+  ClientWidth = 447
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -62,25 +62,5 @@ object FormParol: TFormParol
     Caption = #1042#1099#1093#1086#1076
     TabOrder = 3
     OnClick = Button2Click
-  end
-  object DBEdit1: TDBEdit
-    Left = 328
-    Top = 40
-    Width = 121
-    Height = 21
-    DataField = 'login'
-    DataSource = DataBD.DataParol
-    TabOrder = 4
-    Visible = False
-  end
-  object DBEdit2: TDBEdit
-    Left = 328
-    Top = 67
-    Width = 121
-    Height = 21
-    DataField = 'password'
-    DataSource = DataBD.DataParol
-    TabOrder = 5
-    Visible = False
   end
 end

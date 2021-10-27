@@ -64,8 +64,6 @@ type
     DataSource2: TDataSource;
     ADOQuery1kolvoM: TIntegerField;
     ADOQuery1kod_palat: TAutoIncField;
-    DataParol: TDataSource;
-    ADOParol: TADOTable;
   private
     { Private declarations }
   public
